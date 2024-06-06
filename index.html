@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaren Sherwin's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .main-content, .sidebar {
+            float: left;
+        }
+        .main-content {
+            width: 70%;
+        }
+        .sidebar {
+            width: 30%;
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h3 {
+            border-bottom: 1px solid #77aaff;
+            padding-bottom: 10px;
+        }
+        .sidebar p {
+            margin: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            header ul {
+                text-align: center;
+            }
+            header li {
+                float: none;
+                display: block;
+                padding: 10px;
+            }
+            .main-content, .sidebar {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Aaren Sherwin</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#paper">Paper Presentation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="summary">
+        <div class="container">
+            <h2>Summary</h2>
+            <p>Aaren Sherwin is a dynamic individual with a fervent passion for technology and innovation. With a keen interest in developing apps and conducting in-depth research, Aaren thrives on learning new tools and features to stay ahead in the ever-evolving landscape of technology. Adept in web development, Aaren excels in Python (Django), Java, API integration, and proficiently navigates various databases including MySQL, PostgreSQL, and MongoDB. Their commitment to staying abreast of the latest advancements enables them to deliver cutting-edge solutions. Aaren's expertise extends beyond coding; they have showcased their knowledge through paper presentations, including one at ICSSIT 2024, reflecting their dedication to contributing to the field. With a relentless drive to innovate and a strong foundation of skills, Aaren Sherwin is poised to make significant strides in the world of technology.</p>
+        </div>
+    </section>
+
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+
+        <h3>Bus Management System</h3>
+        <p><strong>SeeLogics Inc.</strong></p>
+        <ul>
+            <li>Developed a comprehensive web application for bus depot management, facilitating real-time monitoring and control of bus statuses such as Active, Inactive, and Under Maintenance. The application is accessible to staff members via secure login, ensuring operational efficiency.</li>
+            <li>Utilized the Django REST API framework to establish efficient communication between backend endpoints and the frontend, implemented with REACT, ensuring seamless data transfer and user interaction.</li>
+            <li>Employed Postgres SQL as the database management system for its robust features and scalability, significantly enhancing data storage and retrieval capabilities over the standard SQLite.</li>
+        </ul>
+
+        <h3>Discord-like Chat Application</h3>
+        <p><strong>Skill Development Project</strong> | March 2023 - May 2023 | <a href="https://shorturl.at/8s4DE" target="_blank">Source Code</a></p>
+        <ul>
+            <li>Crafted an application with Discord-like functionalities, designed to increase user engagement and foster community interaction.</li>
+            <li>Enabled users to create chat rooms, promoting community engagement with real-time participation details. Users can join discussions on various topics and have the ability to delete or modify their messages.</li>
+            <li>Built the application using Django in Python, reducing development time by 15% compared to other frameworks. Leveraged SQLite, which resulted in a 10% improvement in database query performance.</li>
+        </ul>
+
+        <h3>Tappy Bird Game</h3>
+        <p><strong>Personal Project</strong> | September 2022 - November 2022</p>
+        <ul>
+            <li>Developed a Flappy Bird-inspired game called Tappy Bird. Users control the bird using the space bar to avoid obstacles (pipes) and accumulate points.</li>
+            <li>The game's speed fluctuates based on the duration of play. The game features a responsive UI/UX design and robust game mechanics, with design assets obtained from third-party providers.</li>
+            <li>Implemented the game functionality using C++ and developed the project using the Unity 2D game development engine.</li></li>
+        </ul>
+
+        <h3>Secure Chat Application</h3>
+        <p><strong>Skill Development Project</strong> | December 2022 - January 2023 | <a href="https://shorturl.at/F9tZh" target="_blank">Source Code</a></p>
+        <ul>
+            <li>Developed a secure web-based chat application capable of sending and receiving text messages with enhanced security.</li>
+            <li>Implemented a data hiding mechanism within images, encrypting the text data using the AES encryption technique to ensure message security.</li>
+            <li>Engineered the encryption module incorporating advanced AES-256 and RSA algorithms, achieving a 98% success rate in securing communication channels and providing robust protection against data breaches and eavesdropping attempts.</li>
+            <li>Utilized the Flask web framework, resulting in a 20% improvement in development speed compared to alternative frameworks.</li>
+        </ul>
+
+        <h3>Hate Speech Detecting Discord Bot</h3>
+        <p><strong>Skill Development Project</strong> | March 2023 - June 2023 | <a href="https://shorturl.at/QFzAw" target="_blank">Source Code</a></p>
+        <ul>
+            <li>Conceived and developed an innovative Discord bot equipped with a proprietary artificial intelligence model for the detection of hate speech within user messages.</li>
+            <li>This advanced bot possesses the capability to take decisive actions such as user kick, banishment, or flagging upon the identification of hate speech occurrences.</li>
+            <li>Notably, in the event of user sanctions, the bot dutifully dispatches comprehensive reports to the server administrator, ensuring swift and informed action.</li>
+        </ul>
+    </div>
+</section>
+
+
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <h3>Bachelor in Computer Science and Engineering</h3>
+            <p><strong>St. Joseph's Institute of Technology</strong> | OMR, Chennai | 2024 | <strong>8.34 GPA</strong></p>
+
+            <h3>12th Grade</h3>
+            <p><strong>St. Savio Matriculation Higher Secondary School</strong> | Velachery, Chennai | 2020 | <strong>68%</strong></p>
+
+            <h3>10th Grade</h3>
+            <p><strong>St. Savio Matriculation Higher Secondary School</strong> | Velachery, Chennai | 2018 | <strong>82.4%</strong></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Coding Languages:</strong> Python, Java</li>
+                <li><strong>Web Technologies:</strong> HTML, CSS, Node.js, Bootstrap, JavaScript, REST APIs</li>
+                <li><strong>Frameworks:</strong> Django, Flask, Express.js</li>
+                <li><strong>Databases:</strong> SQL, SQLite, MongoDB, Postgres SQL</li>
+                <li><strong>Game Development:</strong> C++, Unity 2D game Engine</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <h3>Web Development Bootcamp</h3>
+            <p><strong>Udemy</strong> | 2023</p>
+            <p>Certified in MERN stack web development technologies and APIs.</p>
+
+            <h3>Advanced Python</h3>
+            <p><strong>Solo Learn</strong> | 2022</p>
+            <p>Certified in advanced Python development.</p>
+
+            <h3>Advanced Java</h3>
+            <p><strong>Solo Learn</strong> | 2022</p>
+            <p>Certified in advanced Java programming.</p>
+
+            <h3>Web Development Using Django</h3>
+            <p><strong>Udemy</strong> | 2022</p>
+            <p>Certified to develop web applications using the Django framework.</p>
+
+            <h3>Software Engineer - Product</h3>
+            <p><strong>AMCAT</strong></p>
+            <p>Certified Software Engineer in Product Development.</p>
+        </div>
+    </section>
+
+<section id="paper">
+    <div class="container">
+        <h2>Paper Presentation</h2>
+        <h3>Secure Image Messaging Platform Utilizing Image Steganography and AES Encryption</h3>
+        <p><strong>ICSSIT 2024</strong></p>
+        <p>Presented a research paper on developing a secure image messaging platform that combines image steganography and AES encryption to ensure data confidentiality and integrity. The paper highlights innovative techniques to enhance data security in messaging platforms.</p>
+        <!-- Add the following anchor tag for document download -->
+        <p><a href="https://drive.google.com/file/d/1M1jyn3DypvAxFkZR3CaT40inag6H88lv/view?usp=sharing" download>Download Manuscript PDF</a></p>
+    </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aaren Sherwin. All Rights Reserved.</p>
+            <p><strong>Email:</strong> aarensherwin007@gmail.com</p>
+            <p><strong>Phone:</strong> +919025073692</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/aarensherwin" target="_blank">Aaren Sherwin</a></p>
+        </div>
+    </footer>
+</body>
+</html>
